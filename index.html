@@ -5,22 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana speak</title>
     <style>
-        textarea{
-        width: 80%;
+
+        h1 {
+            padding: 0rem;
+            margin: auto;
+            text-align: center;
+            background-color: yellow;
+            width: 85%;
+            height: 10vh;
+            padding-top: 1rem;
+            margin-bottom: 2rem;
+
+            
+            
+
+        }
+
+        textarea {
+        width: 40%;
         height: 10vh;
         display: block;
         padding: 1rem;
-        margin: 1rem;
+        margin: auto;
+        
+
         
         }
 
+        #btn-translate {
+            display: block;
+            margin: auto;
+            
+
+        }
+
         #output {
-        width: 80%;
+        display: block;
+        width: 40%;
         height: 10vh;
         border: 1px solid black;
         padding: 1rem;
-        margin: 1rem;
+        margin: auto;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
     
+        }
+        .division {
+            width:20% ;
+            height: 6vh;
+            margin: auto;
+            text-align: left;
+            margin-top: 2rem;
+            padding-top: 1rem;
+            background-color: yellow;
+        }
+        .div2 {
+            text-align: center;
+        }
+        
+        .footer {
+            margin: auto;
+            background-color: yellow;
+            width: 85%;
+            height: 12vh;
+            padding: 1rem;
+            
+        }
+
+        .div3 {
+            width: 40%;
+            height: 6vh;
+            margin: auto;
+            text-align: center;
+            
         }
 
     </style>
@@ -30,10 +87,19 @@
 <body>
     <h1>talk bananaaaaa</h1>
     <textarea id='txt-input' placeholder="put your sentence in English here and we will convert it to banana"></textarea>
+    <div class="division">
+        <button id= "btn-translate" >translate</button>
+    </div>
     
-    <button id= "btn-translate" >translate</button>
-    <div  style="font-size: larger;">output will come here👇</div>
+    <div class="div2" style="font-size: larger;">output will come here👇</div>
     <div id="output"></div>
+    <footer class="footer">
+        <div class="div3">
+        <p>
+           <small style="font-weight:bold">Are you a fan of minion? Did you know that the gibberish they say is an actual language.Use the translator to convert your text from English to Minion speak or Banana language.</small> 
+        </p>
+        </div>
+    </footer>
     <script src="app1.js" type="text/javascript"></script>
     
 </body>
